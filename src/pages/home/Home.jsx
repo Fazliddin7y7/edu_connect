@@ -84,6 +84,7 @@ const Button = styled.button`
   background-color: ${(props) => (props.$primary ? "#007bff" : "white")};
   color: ${(props) => (props.$primary ? "white" : "#007bff")};
   border: ${(props) => (props.$primary ? "none" : "2px solid white")};
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 
   &:hover {
     transform: scale(1.05);
